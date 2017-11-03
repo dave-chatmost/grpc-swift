@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5555CACC1FAD01EF002B33F8 /* CgRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_817 /* CgRPC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_1000 /* completion_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_433 /* completion_queue.c */; };
 		OBJ_1001 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_434 /* event.c */; };
 		OBJ_1002 /* handler.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_435 /* handler.c */; };
@@ -3495,6 +3496,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5555CACB1FAD01D7002B33F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5555CACC1FAD01EF002B33F8 /* CgRPC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		"SwiftGRPC::BoringSSL" /* BoringSSL */ = {
 			isa = PBXNativeTarget;
@@ -3519,6 +3531,7 @@
 			buildPhases = (
 				OBJ_996 /* Sources */,
 				OBJ_1313 /* Frameworks */,
+				5555CACB1FAD01D7002B33F8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -4728,7 +4741,7 @@
 		OBJ_994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4755,7 +4768,7 @@
 		OBJ_995 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
