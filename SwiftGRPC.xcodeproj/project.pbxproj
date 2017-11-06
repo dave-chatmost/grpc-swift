@@ -32,7 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5506D7941FB1040300BB333F /* roots.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5506D7931FB103E400BB333F /* roots.pem */; };
+		5506D7981FB108D300BB333F /* roots.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5506D7931FB103E400BB333F /* roots.pem */; };
 		5555CACC1FAD01EF002B33F8 /* CgRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_817 /* CgRPC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_1000 /* completion_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_433 /* completion_queue.c */; };
 		OBJ_1001 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_434 /* event.c */; };
@@ -3541,7 +3541,6 @@
 				OBJ_996 /* Sources */,
 				OBJ_1313 /* Frameworks */,
 				5555CACB1FAD01D7002B33F8 /* Headers */,
-				5506D7911FB103B100BB333F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3574,6 +3573,7 @@
 			buildPhases = (
 				OBJ_972 /* Sources */,
 				OBJ_985 /* Frameworks */,
+				5506D7971FB108CD00BB333F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3671,11 +3671,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5506D7911FB103B100BB333F /* Resources */ = {
+		5506D7971FB108CD00BB333F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5506D7941FB1040300BB333F /* roots.pem in Resources */,
+				5506D7981FB108D300BB333F /* roots.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
