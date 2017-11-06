@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5506D7941FB1040300BB333F /* roots.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5506D7931FB103E400BB333F /* roots.pem */; };
 		5555CACC1FAD01EF002B33F8 /* CgRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_817 /* CgRPC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_1000 /* completion_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_433 /* completion_queue.c */; };
 		OBJ_1001 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_434 /* event.c */; };
@@ -781,6 +782,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5506D7931FB103E400BB333F /* roots.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = roots.pem; path = Assets/roots.pem; sourceTree = "<group>"; };
 		OBJ_100 /* e_ssl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_ssl3.c; sourceTree = "<group>"; };
 		OBJ_101 /* e_tls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_tls.c; sourceTree = "<group>"; };
 		OBJ_102 /* tls_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tls_cbc.c; sourceTree = "<group>"; };
@@ -1537,7 +1539,6 @@
 		OBJ_892 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		OBJ_893 /* gRPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gRPC.swift; sourceTree = "<group>"; };
 		OBJ_896 /* GRPCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPCTests.swift; sourceTree = "<group>"; };
-		OBJ_897 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
 		OBJ_898 /* Docker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Docker; sourceTree = SOURCE_ROOT; };
 		OBJ_899 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
 		OBJ_900 /* Plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Plugin; sourceTree = SOURCE_ROOT; };
@@ -1629,6 +1630,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5506D7921FB103D100BB333F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5506D7931FB103E400BB333F /* roots.pem */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* aes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2439,10 +2448,10 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				5506D7921FB103D100BB333F /* Assets */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_894 /* Tests */,
-				OBJ_897 /* Assets */,
 				OBJ_898 /* Docker */,
 				OBJ_899 /* Examples */,
 				OBJ_900 /* Plugin */,
@@ -3532,6 +3541,7 @@
 				OBJ_996 /* Sources */,
 				OBJ_1313 /* Frameworks */,
 				5555CACB1FAD01D7002B33F8 /* Headers */,
+				5506D7911FB103B100BB333F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3659,6 +3669,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5506D7911FB103B100BB333F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506D7941FB1040300BB333F /* roots.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_1322 /* Sources */ = {
